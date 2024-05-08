@@ -1,59 +1,61 @@
 body {
-    background-color: rgb(110, 110, 110);
+    background-color: rgb(78, 3, 45);
     text-align: center;
 }
 
-h1{
+h1 {
     color: white;
-    font-family: fantasy;
+    font-family: 'Courier New', Courier, monospace;
     letter-spacing: 2px;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
-.ele1,
-.ele2,
-.ele3,
-.ele4,
-.ele5 {
+.elemento1,
+.elemento2,
+.elemento3,
+.elemento4,
+.elemento5,
+.elemento6,
+.elemento7
+{
+
     display: flex;
     align-items: center;
-
     height: 200px;
     width: 80%;
-    background-color: rgba(207, 22, 183, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 20px;
-    border: 2px solid rgba(255, 255, 255); 
+    border: 2px solid rgba(255, 255, 255);
     margin: 20px auto;
     max-width: 100%;
-    /* max-height: 100%; */
 }
 
-.ele2 {
+.elemento2 {
     justify-content: center;
-    background-color: rgba(201, 32, 32, 0.6);
-
-    /* flex-direction: row-reverse; */
     flex-direction: column-reverse;
+    /* flex-direction: row-reverse; */
 }
 
-.ele3 {
+.elemento3 {
     justify-content: center;
-    background-color: rgba(22, 96, 207, 0.6);
-
     flex-wrap: wrap;
     /* flex-wrap: wrap-reverse; */
     /* flex-wrap: nowrap; */
 }
 
-.ele4{
+.elemento4 {
     justify-content: flex-start;
-    background-color: rgba(207, 204, 22, 0.6);
-    
 }
 
-.ele5{
+.elemento5 {
     justify-content: flex-end;
-    background-color: rgb(196, 188, 116);
+}
+
+.elemento6{
+    align-items: flex-start;
+}
+
+.elemento7{
+    align-items: flex-end;
 }
 
 .item1,
@@ -61,47 +63,35 @@ h1{
 .item3,
 .item4,
 .item5,
-.item6,
-.item7,
-.item8,
-.item9,
-.item10,
-.item11,
-.item12,
-.item13,
-.item14,
-.item15 {
+.item6 {
 
     display: flex;
-
     height: 50px;
     width: 50px;
-    background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    border: 2px solid rgb(0, 0, 0);
-    transition: 1s;
-
+    background-color: rgb(0, 255, 0);
+    border: 2px solid rgb(255, 255, 255);
+    transition: 2s;
+    cursor: pointer;
 }
 
-.item1 {
-    margin-left: 2px;
-    margin-right: 2px;
-    flex-grow: 9;
 
+
+
+/*  */
+
+.item1 {
+    background-color: rgb(255, 0, 0);
+    flex-grow: 9;
 }
 
 .item2 {
-
-    margin-right: 2px;
     flex-grow: 1;
-
 }
 
 .item3 {
-    margin-right: 2px;
+    background-color: rgb(0, 26, 255);
     flex-grow: 4;
-    
-
 }
 
 
@@ -110,92 +100,9 @@ h1{
 /*  */
 
 .item4 {
-    background-color: aqua;
-    margin-bottom: 2px;
-    
-
-}
-
-.item5 {
     background-color: rgb(255, 0, 0);
-    margin-bottom: 2px;
-    
-
 }
 
 .item6 {
-    background-color: rgb(30, 255, 0);
-    
-
-}
-
-
-
-
-/*  */
-
-.item7 {
-    background-color: rgb(105, 105, 105);
-    
-
-}
-
-.item8 {
-    background-color: rgb(183, 0, 255);
-    
-
-}
-
-.item9 {
-    background-color: rgb(229, 255, 0);
-    
-
-}
-
-
-
-
-/*  */
-
-
-
-.item10 {
-    background-color: rgb(255, 102, 0);
-
-}
-
-.item11 {
-    background-color: rgb(4, 29, 255);
-   
-
-}
-
-.item12 {
-    background-color: rgb(255, 0, 140);
-    
-
-}
-
-
-
-
-/*  */
-
-
-
-.item13 {
-    background-color: rgb(255, 102, 0);
-
-}
-
-.item14 {
-    background-color: rgb(4, 29, 255);
-   
-
-}
-
-.item15 {
-    background-color: rgb(255, 0, 140);
-    
-
+    background-color: rgb(0, 26, 255);
 }
