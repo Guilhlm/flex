@@ -15,8 +15,10 @@ h1 {
 .elemento4,
 .elemento5,
 .elemento6,
-.elemento7
-{
+.elemento7,
+.elemento8,
+.elemento9,
+.elemento10 {
 
     display: flex;
     align-items: center;
@@ -50,12 +52,22 @@ h1 {
     justify-content: flex-end;
 }
 
-.elemento6{
+.elemento6 {
     align-items: flex-start;
 }
 
-.elemento7{
+.elemento7 {
     align-items: flex-end;
+}
+
+.elemento8 {
+    align-content: flex-start;
+    /* arrumar */
+}
+
+.elemento9 {
+    align-content: flex-end;
+    /* arrumar */
 }
 
 .item1,
@@ -63,13 +75,28 @@ h1 {
 .item3,
 .item4,
 .item5,
-.item6 {
+.item6,
+.item7,
+.item8,
+.item9,
+.item10,
+.item11,
+.item12,
+.item13,
+.item14,
+.item15,
+.item16,
+.item17,
+.item18,
+.item19,
+.item20,
+.item21 {
 
     display: flex;
     height: 50px;
     width: 50px;
     border-radius: 20px;
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(191, 104, 231);
     border: 2px solid rgb(255, 255, 255);
     transition: 2s;
     cursor: pointer;
@@ -81,8 +108,8 @@ h1 {
 /*  */
 
 .item1 {
-    background-color: rgb(255, 0, 0);
-    flex-grow: 9;
+    background-color: rgb(92, 31, 173);
+    flex-grow: 7;
 }
 
 .item2 {
@@ -90,19 +117,87 @@ h1 {
 }
 
 .item3 {
-    background-color: rgb(0, 26, 255);
-    flex-grow: 4;
+    background-color: rgb(37, 4, 65);
+    flex-grow: 9;
 }
 
-
-
-
 /*  */
+
+.item19 {
+    background-color: rgb(186, 253, 1);
+    order: 20;
+}
+
+.item20 {
+    background-color: rgb(253, 11, 11);
+    order: 200;
+}
+
+.item21 {
+    background-color: rgb(16, 201, 99);
+    order: 6;
+}
+
+/* apenas estilizaçao */
+/* apenas estilizaçao */
+/* apenas estilizaçao */
 
 .item4 {
     background-color: rgb(255, 0, 0);
 }
 
+.item5 {
+    background-color: rgb(61, 6, 6);
+}
+
 .item6 {
-    background-color: rgb(0, 26, 255);
+    background-color: rgb(253, 119, 119);
+}
+
+.item7 {
+    background-color: rgb(255, 238, 0);
+}
+
+.item8 {
+    background-color: rgb(184, 171, 115);
+}
+
+.item9 {
+    background-color: rgb(64, 68, 9);
+}
+
+.item10 {
+    background-color: rgb(30, 255, 0);
+}
+
+.item11 {
+    background-color: rgb(162, 255, 159);
+}
+
+.item12 {
+    background-color: rgb(6, 85, 23);
+}
+
+.item13 {
+    background-color: rgb(0, 195, 255);
+}
+
+.item14 {
+    background-color: rgb(78, 100, 110);
+}
+
+.item15 {
+    background-color: rgb(4, 61, 75);
+}
+
+.item16 {
+    background-color: rgb(255, 0, 234);
+}
+
+.item17 {
+    background-color: rgb(110, 78, 110);
+}
+
+.item18 {
+    background-color: rgb(75, 4, 51);
 }
