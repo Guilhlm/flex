@@ -38,6 +38,8 @@ h1 {
 }
 
 .elemento3 {
+    min-height: 200px;
+    height: max-content;
     justify-content: center;
     flex-wrap: wrap;
     /* flex-wrap: wrap-reverse; */
@@ -61,13 +63,14 @@ h1 {
 }
 
 .elemento8 {
+    flex-wrap: wrap;
     align-content: flex-start;
-    /* arrumar */
+    
 }
 
 .elemento9 {
+    flex-wrap: wrap;
     align-content: flex-end;
-    /* arrumar */
 }
 
 .item1,
@@ -125,17 +128,17 @@ h1 {
 
 .item19 {
     background-color: rgb(186, 253, 1);
-    order: 20;
+    order: 1;
 }
 
 .item20 {
     background-color: rgb(253, 11, 11);
-    order: 200;
+    order: 6;
 }
 
 .item21 {
     background-color: rgb(16, 201, 99);
-    order: 6;
+    order: 2;
 }
 
 /* apenas estilizaçao */
